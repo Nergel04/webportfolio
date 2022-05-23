@@ -1,0 +1,24 @@
+/*body,html{
+	background-image: linear-gradient(to bottom, #222831, #2a3d4d, #2c5569, #276e84, #1a889c, #13879e, #0a879f, #0086a1, #00698c, #0b4e73, #143458, #141b3c);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin-bottom: 0px!important;
+}
+*/
+
+/*.mylandingpage div{
+	background-image: radial-gradient(circle, #0dddd2, #14d9d2, #1bd5d1, #22d1d0, #28cdcf, #3fccd0, #4fccd1, #5dcbd2, #75ced5, #8ad1d8, #9cd3da, #aed6dc);
+	box-shadow:  0 0 2rem 2rem #B4F4FC;
+	margin-top: 5rem;
+}*/
+
+#nameh1 {
+	font-size: 100px;
+}
+
+#glenn {
+	box-shadow:  0 0 2rem 1rem #B4F4FC;
+}
+

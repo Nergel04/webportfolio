@@ -1,24 +1,195 @@
-/*body,html{
-	background-image: linear-gradient(to bottom, #222831, #2a3d4d, #2c5569, #276e84, #1a889c, #13879e, #0a879f, #0086a1, #00698c, #0b4e73, #143458, #141b3c);
-	height: 100vh;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-    margin-bottom: 0px!important;
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+*{
+	color: white;
+	font-family: 'Josefin Slab', serif;
 }
-*/
-
-/*.mylandingpage div{
-	background-image: radial-gradient(circle, #0dddd2, #14d9d2, #1bd5d1, #22d1d0, #28cdcf, #3fccd0, #4fccd1, #5dcbd2, #75ced5, #8ad1d8, #9cd3da, #aed6dc);
-	box-shadow:  0 0 2rem 2rem #B4F4FC;
-	margin-top: 5rem;
-}*/
-
 #nameh1 {
-	font-size: 100px;
+	font-size: 70px;
+	padding-bottom: 30px;
+	font-family: 'Monoton', cursive;
+	color: #DCDE3D;
 }
 
-#glenn {
-	box-shadow:  0 0 2rem 1rem #B4F4FC;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-attachment: fix;
+  z-index: -1;
+  display: flex;
+  margin: 0;
+
+}
+
+#yown {
+	background-image: radial-gradient(circle, #000f3a, #000e34, #010d2f, #010c29, #010b23, #000c20, #000d1d, #000d1a, #000f18, #001016, #001113, #011110);
+	box-shadow: 0 0 20px 20px black inset;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#picme {
+	box-shadow: 0 0 20px 20px black inset;
+}
+
+#navbar {
+	background-image: linear-gradient(to right top, #000000, #0d0005, #14000e, #170017, #150020, #150020, #150020, #150020, #170017, #14000e, #0d0005, #000000);
+	box-shadow: 0 0 5px 5px black inset;
+}
+#myproj {
+	background-image: radial-gradient(circle, #000f3a, #000e34, #010d2f, #010c29, #010b23, #000c20, #000d1d, #000d1a, #000f18, #001016, #001113, #011110);
+	box-shadow: 5px 10px #888888;
+}
+
+#myproj {
+   box-shadow: 0 0 20px 20px black inset;
+   margin-bottom: 100px;
+}
+
+section	.card {
+	background-color: black;
+}
+
+section .card {
+	background-image: radial-gradient(circle, #000f3a, #000e34, #010d2f, #010c29, #010b23, #000c20, #000d1d, #000d1a, #000f18, #001016, #001113, #011110); 
+	box-shadow: 0 0 10px 10px white inset;
+}
+
+#tools {
+	margin-bottom: 150px;
+}
+
+#bottom{
+	background-color:  #130131;
+	box-shadow: 0 0 3px 3px white inset;
+}
+
+#pproj {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+#aboutme div h2 {
+	font-size: 50px;
+}
+#aboutme div p {
+	font-size: 22px;
+	margin: 5px;
+	padding: 5px;
+}
+
+#myproj h1 {
+	font-size: 100px;
+	color: #DCDE3D;
+}
+
+#myproj .card-title {
+	font-size: 30px;
+	color: #DCDE3D;
+}
+
+#tools h1 {
+	font-size: 100px;
+	color: #DCDE3D;
+}
+#tools h3{
+	font-size: 50px;
+	color: #DCDE3D;
+}
+#contact h2{
+	font-size: 100px;
+	text-align: center;
+	color: #DCDE3D;
+
+}
+
+#contact p {
+	font-size: 30px;
+	text-align: center;
+}
+#contact h1 {
+	color: #DCDE3D;
+}
+#contactmap {
+	background-image: radial-gradient(circle, #000f3a, #000e34, #010d2f, #010c29, #010b23, #000c20, #000d1d, #000d1a, #000f18, #001016, #001113, #011110);
+	border-radius: 5%;
+	box-shadow: 0 0 10px 10px white inset;
+}
+
+#navbar {
+	font-size: 20px;
+}
+
+
+#navbar .navbar-brand {
+	font-size: 30px;
+	font-family: 'Monoton', cursive;
+	color: #DCDE3D;
+}
+
+footer {
+	color: white !important;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+html {
+	scroll-behavior: smooth;
+
+}
+
+#contactbtn {
+	
+	box-shadow: 0 0 3px 3px white inset;
+	color: white;
+  	transition: 0.3s;
+}
+
+#contactbtn:hover{
+	background-color: #5D710D;
+}
+
+a{
+	transition: 0.3s;
+}
+
+a:hover{
+	background-color: #5D710D;
+}
+
+#bottom {
+	tansition: 0.5s;
+}
+
+#bottom:hover{
+	background-color: #5D710D;
+}
+
+@keyframes float{
+	0% {top: 0px;}
+	25% {top: 10px;}
+	50% {top: 1px;}
+	75% {top: 10px;}
+	100% {top: 1px;}
+
+}
+
+section{
+	position: relative;
+	animation-name: float;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+
+}
+
+.nav-link {
+	color: #DCDE3D !important;
 }
 

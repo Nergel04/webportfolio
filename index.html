@@ -10,80 +10,208 @@
 	<!-- Bootstrap Link -->
 </head>
 <body>
+<video autoplay muted loop id="myVideo">
+  <source src="image/galaxy.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
 
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-			  <a class="navbar-brand" href="#">Glenn Francis</a>
+	<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+			  <a class="navbar-brand" href="#aboutme">GF</a>
 			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    	<span class="navbar-toggler-icon"></span>
 			  </button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 			    <ul class="navbar-nav ml-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#aboutme">Home <span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">About Me</a>
+			        <a class="nav-link" href="#myproj">Projects</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Project and Tools</a>
+			        <a class="nav-link" href="#tools">Project Tools</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contact</a>
+			        <a class="nav-link" href="#contact">Contact</a>
 			      </li>
 			    </ul>
 			</div>
 	</nav>
-	<!-- Navbar -->
+	<!-- Navbar End -->
 
-	<section class="container-fluid shadow-lg p-5 pr-3 pl-3">
-		<div class="row ml-auto">
+	<!-- About Me -->
+	<section id="aboutme" class="container-fluid mb-5 p-5">
+		<div id="yown" class="row ml-auto rounded-lg pt-5">
 			<div class="col-sm-12 col-md-6 text-center d-flex justify-content-center flex-column">
 				<h1 id="nameh1">Glenn Francis</h1>
 				<h2>Hi, Nice to meet you!!</h2>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio architecto ducimus non a mollitia placeat, nesciunt atque et cum dolorem possimus, aspernatur quaerat accusantium necessitatibus maxime ab voluptatum. Adipisci, nihil!</p>
+				<p>I'm Glenn Francis Libradilla, I am always fascinated to how our technology progress and now we are entering the Artificial Intelligence Era. For that, I studied Electronics Engineering to better understand how machine works and now I am looking forward to become a web developer. Being Zuitt Bootcamper, makes programming easy even if you have zero knowledge in information technology. That is why I know that I chose the right decision. </p>
 			</div>
-			<div class="col-sm-12 col-md-6 text-center">
-				<img src="image/me1.jpg" alt="Glenn" class="img-fluid rounded-circle">
+			<div class="col-sm-12 col-md-6 text-center pb-5 d-flex justify-content-center">
+				<img src="image/meme.jpeg" alt="Glenn" class="my-auto mx-auto w-50 rounded-pill">
 			</div>
 		</div>
 	</section>
+	<!-- About Me End -->
 
-	<section class="container mt-5">
-		<h1 class="mb-3 text-center">My Projects</h1>
-		<div class="row">
-			<div class="card col-4 p-2" style="width: 18rem;">
+	<!-- My Project -->
+
+	<section id="myproj" class="container mt-5 p-3">
+		<h1 class="mt-4 mb-1 text-center">My Projects</h1>
+		<p id="pproj">To better provide you some insights, check my work from previous projects:</p>
+		<div class="row d-flex justify-content-center p-3">
+			<div class="card col-sm-12 col-md-3 p-3 m-3" style="width: 15rem;">
 			  <img src="image/card1.jpg" class="card-img-top" alt="...">
-			  <div class="card-body text-center">
-			  	<h3 class="text-center">Web Page Design</h3>
-			    <p class="card-text mb-0">Tired of dull and boring web page? 
-			    	<p class="mb-2">We got your back!</p> 
-			    	<p class="mb-0 text-left">With this new technology, all page can now be responsive with any screen size you want! Check this responsive web page projects now!</p>
+			  <div class="card-body d-flex flex-column h-100">
+			    <h5 class="card-title text-center">Web Page Design</h5>
+			    <p class="card-text text-center">Tired of dull and boring web page?</p>
+			    <p class="mb-2 text-center">We got your back!</p> 
+			    <p class="text-center">With this new technology, all page can now be responsive with any screen size you want! Check this responsive web page projects now!</p>
+			    <a href="links/card1.html" id="bottom" class="btn btn-primary mt-auto">CLink here!</a>
 			  </div>
 			</div>
-			<div class="card col-4 p-2" style="width: 18rem;">
+			<div class="card col-sm-12 col-md-3 p-3 m-3" style="width: 15rem;">
 			  <img src="image/card2.jpg" class="card-img-top" alt="...">
-			  <div class="card-body">
-			  	<h3 class="text-center">Online Fill Out Form</h3>
-			    <p class="card-text mb-1 text-center">Why waste paper if you can do it online?</p>
-			    <p>We make life more easier by creating online forms so you can gather information that you need. </p>
+			  <div class="card-body d-flex flex-column h-100">
+			    <h5 class="card-title text-center">Online Forms</h5>
+			    <p class="card-text text-center">Why waste paper if you can do it online?</p>
+			    <p class="text-center">We make life more easier by creating online forms, you can gather information that you need quicker and efficient. </p>
+			    <a href="links/card2.html" id="bottom" class="btn btn-primary mt-auto">CLink here!</a>
 			  </div>
 			</div>
-			<div class="card col-4 p-2" style="width: 18rem;">
+			<div class="card col-sm-12 col-md-3 p-3 m-3" style="width: 15rem;">
 			  <img src="image/card3.jpg" class="card-img-top" alt="...">
-			  <div class="card-body">
-			  	<h3 class="text-center">Developer's Portfolio</h3>
-			    <p class="card-text mb-1 text-center">Want to get notice?</p>
-			    
+			  <div class="card-body d-flex flex-column h-100">
+			    <h5 class="card-title text-center">Portolio Designs</h5>
+			    <p class="card-text text-center">Want to get notice?</p>
+			    <p class="text-center">Stand out with the help of our sophisticated portfolio's design.</p>
+			    <a href="links/card3.html" id="bottom" class="btn btn-primary mt-auto">Click here!</a>
 			  </div>
 			</div>
 		</div>
-
+		
 	</section>
+	<!-- My Project End-->
 
+
+
+	<!-- Tools -->
+	<section id="tools">
+		<h1 class="text-center pb-5">Project Tools</h1>
+		<div class="container pt-3">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+	                <!-- Core Tools Section Start -->
+	                <h3 class="text-center">Core Tools</h3>
+	                <div class="text-center">
+	                    <div class="p-3 d-flex justify-content-center">
+	                        <img class="img-fluid" width="100" src="image/logo-html5.png"/>
+	                    </div>
+	                    <div class="p-3 d-flex justify-content-center">
+	                        <img class="img-fluid" width="100" src="image/logo-css3.png"/>
+	                        <img class="img-fluid" width="100" src="image/logo-javascript.png"/>
+	                    </div>
+	                </div>
+	            </div>
+                <!-- Core Tools Section End -->
+               
+               <div class="col-md-6 col-sm-12">
+	                <!-- Other Tools Section Start -->
+	                <h3 class="text-center">Other Tools</h3>
+	                <div class="d-flex flex-row flex-md-column justify-content-center">
+	                    <div class="d-flex flex-column flex-md-row justify-content-center">
+	                        <img width="100" src="image/logo-mongodb.png"/>
+	                        <img width="100" src="image/logo-nodejs.png"/>
+	                        <img width="100" src="image/logo-expressjs.png"/>
+	                        <img width="100" src="image/logo-react.png"/>
+	                        <img width="100" src="image/logo-heroku.png"/>
+	                    </div>
+	                    <div class="d-flex flex-column flex-md-row justify-content-center">
+	                        <img width="100" src="image/logo-git.png"/>
+	                        <img width="100" src="image/logo-sublime-text-3.png"/>
+	                        <img width="100" src="image/logo-postman.png"/>
+	                        <img width="100" src="image/logo-gitlab-ci-cd.png"/>
+                    	</div>
+               		</div>
+               	</div>
+            </div>                    
+        </div>
+	</section>
+	<!-- Tools End-->
+
+
+	<!-- Contact Me -->
+	<section id="contact" class="container mt-5 p-auto">
+		<h2>Contact</h2>
+		<p>Interested? I’m always open to discussing design work or partnership opportunities.</p>
+		<div class="row p-3 m-3">
+			<div class="col-md-6 col-sm-12">
+				<h1 class="text-center mt-5 mb-5">Visit Us</h1>
+				<div class="d-flex justify-content-center p-3">
+					<iframe width="600" height="450" style="border:0; text-alight:center" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOS3z3zvIlzMRZmMvO6wOREU&key=AIzaSyBcx3G84fTMAF7E2p948-fmvSGJmvISuMw"></iframe>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h1 class="text-center mt-5 mb-5">Contact Us</h1>
+				<form id="contactmap" class="bg-dark p-4">
+				  <div class="form-group p-1">
+				    <label for="exampleFormControlInput1">Email address</label>
+				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email@example.com">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleFormControlInput1">Full Name</label>
+				    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="My Name">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleFormControlTextarea">Message</label>
+				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+				  </div>
+				  <div class="text-center">
+				  <button id="contactbtn" type="button" class="mt-1 btn btn" data-toggle="modal" data-target="#exampleModal">
+				   Submit
+				  </button>
+				  </div>
+				</form>
+			</div>
+		</div>
+
+
+		<!-- Modal -->
+		
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header bg-dark">
+		        <h5 class="modal-title" id="exampleModalLabel">Message Sent!</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body bg-secondary">
+		        <p>Thank you for your interest.</p>
+		        <p>We are looking forward in working with you.</p>
+		      </div>
+		      <div class="modal-footer bg-dark">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		    </div>
+		  </div>
+		</div>
+		
+	</section>
+	<!-- Contact Me End -->
+<!-- Footer -->
+<footer class="mastfoot text-center mt-auto mb-0 mr-0">
+        <div class="inner">
+          <p>© Copyright: Created by Glenn Francis Libradilla</p>
+        </div>
+      </footer>
+<!-- Footer -->
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
 </body>
 </html>
+
